@@ -14,7 +14,7 @@ export default function SearchBar({ onSubmit }:SearchBarProps) {
             toast.error('Please enster your search query.')
             return
         }
-
+        
         onSubmit(query)
     }
     return (
